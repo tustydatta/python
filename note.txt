@@ -1,0 +1,68 @@
+-> variable declearation:
+	variable_name = value
+
+-> print something:
+	print(____)
+
+-> Datatype:
+	1. integers (-ve, 0, +ve)
+	2. string ("anything")
+	3. float (pointing value - 25.45)
+	4. boolean (Ture, False)
+	5. none (None)
+
+-> comments:
+	# I am a singel line comment
+	"""multi
+	line
+	comment""""
+
+-> operators:
+	# Arithmetic operators (+, -, *, /, %, **)
+		[** - a^b]
+	# Relational / Comparison operator (==, !=, >, <, >=, <=)
+	# Assignment Operator (=, +=, -=, *=, /=, %=, **=)
+	# Logical Operator (and, or, not)
+
+
+-> type conversion:
+	1. type conversion (working as automatic)
+	2. type casting  (working as manually)
+		a = int("2")
+		b = float("3")
+		c = float("Tusty") #show error
+
+-> input something: 
+        input(___) #result for input() is always a str
+	int(input()) #int
+	float(input()) #float
+
+-> concatenation:
+	"hello" + "world" --> "helloworld"
+
+-> length of str:
+	len(str)
+
+-> slicing:
+	print(str[1:4])
+	print(str[-3:-1])
+
+-> string function:
+	print(str.endswith("----")) #returns true if string ends with substr
+	print(str.capitalize()) #capitalizes 1st char
+	print(str.replace(old, new)) #replaces all occurrences of old
+	print(str.find(word)) #return 1st index of 1st occurrer
+	print(str.count("am")) #counts the occurrence of substr
+
+-> List methods:
+	list.append(4) #adds one element at the end
+	list.sort() #sorts in ascending order
+	list.sort(reverse=True) #sorts in descending order
+	list.reverse() #reverses list
+	list.insert(idx,el) #insert element at index
+	list.remove(1) #removes first occurrence of element
+	list.pop(idx) #removes element at idx
+
+-> Tuple methods:
+	tup.index(el) #returns index of first occurrence
+	tup.count(el) #counts total occurrence
