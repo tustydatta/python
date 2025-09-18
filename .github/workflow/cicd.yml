@@ -10,7 +10,6 @@ on:
       - main
 
 
-
 jobs:
   read_hello_file:
     runs-on: ubuntu-latest
